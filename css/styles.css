@@ -6,6 +6,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+img {
+    display: block;
+}
 .logo-top {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -13,28 +16,35 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; }
+    color: #4d5ae5;
+margin-right: 76px; }
 .link-name-top {
-            color: #2e2f42; }
-.link {
-     text-decoration: none;
-     }
-.list {
-     list-style: none;
-        padding: 0;
-         margin: 0;  }
-.container {
-    margin-right: auto;
-                margin-left: auto;
-                width: 1158px;
-                padding-left: 12px;
-                padding-right: 12px;  }         
+            color: #2e2f42;
+        }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.header-list {
+display: inline-flex;
+gap: 40px;
+padding: 24px 0 24px;
+}
+.header-list-item {
+    display: inline-flex;
+    gap: 40px;
+}
 .page-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: flex;
+    align-items: center;
 }
 .link {
     font-style: normal;
@@ -60,6 +70,9 @@ body {
     line-height: 1.5;
     color: #434455;
 }
+.address {
+    display: flex;
+}
 
 .address .link:hover,
 .address .link:focus {
@@ -71,6 +84,7 @@ body {
         text-align: center;
         letter-spacing: 0.02em;
         color: #ffffff;
+        max-width: 496px;
 }
 .main-title { font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -80,6 +94,10 @@ body {
         letter-spacing: 0.02em;
         color: #fff;
         background-color: #2e2f42;
+        padding-top: 188px;
+        padding-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
     }
 .button { font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -89,6 +107,11 @@ body {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -98,6 +121,7 @@ body {
 .text {
     font-size: 16px;
     color: #434455;
+    margin-bottom: 8px;
 }
 .text-footer {
     color: #f4f4fd;
@@ -114,6 +138,15 @@ font-weight: 700;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.advanteges-list {
+    padding-top: 120px;
+        padding-bottom: 120px;
+        align-items: center;
+}
+.advanteges-list-item {
+    max-width: 264px;
+    margin: 24px;
+}
 h2 {
     font-weight: 700;
         font-size: 36px;
@@ -122,6 +155,22 @@ h2 {
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+}
+.team-card {
+    text-align: center;
+}
+.team-member-list {
+    padding-top: 120px;
+        padding-bottom: 120px;
+        align-items: center;
+        gap: 24px;
+}
+.team-member-container {
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 232px;
+    padding-bottom: 120px;
+    gap: 24px;
 }
 h3 {
     font-weight: 500;
@@ -139,13 +188,35 @@ h3 {
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
+    }
+    .service-titles-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 .link-name-bottom {
     color: #f4f4fd;
 }
 a {
     text-decoration: none;
+    display: flex;
+        flex-direction: row;
 }
 ul {
     list-style: none;
+    display: flex;
+        flex-direction: row;
+}
+.container {
+display: flex;
+flex-direction: column;
+max-width: 1158px;
+margin: 0;
+padding: 0 15px 0 15px;
+}
+.page-footer .logo-bottom {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 100px 0 100px;
 }
