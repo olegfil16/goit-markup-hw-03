@@ -102,7 +102,9 @@ gap: 40px;
         letter-spacing: 0.02em;
         color: #ffffff;
         max-width: 496px;
-        margin: 0 auto 48px auto;
+        padding-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .main-title { font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -114,7 +116,6 @@ gap: 40px;
         background-color: #2e2f42;
         padding-top: 188px;
         padding-bottom: 188px;
-        margin: 0 auto 48px auto;
     }
 
 .button { font-family: "Roboto", sans-serif;
@@ -142,7 +143,6 @@ gap: 40px;
 .text {
     font-size: 16px;
     color: #434455;
-    margin-bottom: 8px;
 }
 .text-footer {
     color: #f4f4fd;
@@ -169,8 +169,6 @@ font-weight: 700;
 }
 .advanteges-list {
     display: flex;
-    padding-top: 120px;
-        padding-bottom: 120px;
         align-items: center;
         gap: 24px;
 }
@@ -188,7 +186,6 @@ h2 {
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
-        margin-bottom: 72px;
 }
 .visually-hidden {
     position: absolute;
@@ -206,7 +203,6 @@ h2 {
     text-align: center;
     padding-top: 120px;
         padding-bottom: 120px;
-        margin-bottom: 8px;
 }
 .team-members {
     margin-bottom: 72px;
@@ -218,14 +214,13 @@ h2 {
 .team-members-item {
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    margin-right: 24px;
 }
 .team-members-item:last-child {
     margin-right: 0;
 }
 .team-members-container {
     padding-top: 32px;
-    padding-bottom: 32px;
+   padding-bottom: 32px;
 }
 h3 {
     font-weight: 500;
@@ -239,7 +234,6 @@ h3 {
 .services {
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-bottom: 8px;
 }
 .service-titles {
         font-weight: 700;
@@ -249,8 +243,6 @@ h3 {
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
-        padding-top: 120px;
-        padding-bottom: 120px;
         margin-bottom: 72px;
     }
     .service-titles-list {
@@ -264,7 +256,6 @@ h3 {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
-        margin-bottom: 8px;
     }
     .service-title-item {
         width: calc((100% - 48px) / 3);
